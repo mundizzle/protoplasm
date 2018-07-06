@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node ./lib/build",
     "start": "node ./lib/server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "chokidar": "^2.0.4",
     "front-matter": "^2.3.0",
     "fs-extra": "^6.0.1",
+    "gh-pages": "^1.2.0",
     "glob": "^7.1.2",
     "npm": "^6.1.0",
     "nunjucks": "^3.1.3",
