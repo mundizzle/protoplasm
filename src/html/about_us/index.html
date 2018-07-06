@@ -1,0 +1,18 @@
+---
+title: About Us
+---
+
+{% extends "document.html" %}
+
+{% block body %}
+  <h1>{{title}}</h1>
+  <h2>States</h2>
+  <ul>
+    {% for state in _data('states', 'CT') %}
+      <li>{{ state.name }}</li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}
+
+
