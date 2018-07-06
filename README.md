@@ -1,4 +1,5 @@
+![](https://mundizzle.github.io/protoplasm/assets/images/protoplasm.svg)
+
 # protoplasm
 
-![](./protoplasm.svg)
 rapid web prototyping environment
